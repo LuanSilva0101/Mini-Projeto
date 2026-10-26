@@ -7,8 +7,6 @@ Mini-Projeto Avaliativo – Módulo 1 (Machine Learning e Visão Computacional �
 
 A Festa em Cena é uma rede **fictícia** que vende fantasias e acessórios de Halloween nos canais **Mercado**, **Loja física** e **Web**. Os registros têm problemas de qualidade (categorias vazias, pontuação indevida, canais escritos de formas diferentes, quantidades e preços inválidos, datas inválidas). O programa lê o CSV, trata esses problemas **sem alterar o arquivo original** e gera um relatório antes de comparar os períodos de venda.
 
-**O que é uma linha:** um pedido de um único produto, que pode ter várias unidades.
-
 **Quatro colunas:**
 - `pedido_id`: identificador único do pedido.
 - `canal_venda`: onde o pedido foi feito (Mercado, Loja física ou Web).
