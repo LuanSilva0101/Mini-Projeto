@@ -33,8 +33,7 @@ def limpar_categoria(texto):
 
 
 def padronizar_canal(texto):
-    """Devolve Mercado, Loja física ou Web; None se não for reconhecido
-    (não inventamos canal)."""
+    """Devolve Mercado, Loja física ou Web; None se não for reconhecido"""
     return CANAIS.get(texto.strip().lower())
 
 
